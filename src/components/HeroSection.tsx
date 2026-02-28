@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Linkedin, Github, Mail, Download, ArrowDown } from "lucide-react";
 import ParticleBackground from "./ParticleBackground";
 import TypingEffect from "./TypingEffect";
+import profileImg from "@/assets/profile.png";
 
 const HeroSection = () => (
   <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -17,6 +18,18 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
+        {/* Profile picture */}
+        <div className="mb-6 flex justify-center">
+          <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full p-[3px] bg-gradient-to-br from-primary to-accent">
+            <img
+              src={profileImg}
+              alt="John Anderson - IT Support Specialist"
+              className="w-full h-full rounded-full object-cover"
+            />
+            <div className="absolute inset-0 rounded-full glow-box" />
+          </div>
+        </div>
+
         <p className="text-primary font-mono text-sm mb-4 tracking-widest uppercase">Welcome to my portfolio</p>
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-4 leading-tight">
           John Anderson
