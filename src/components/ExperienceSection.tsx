@@ -4,10 +4,10 @@ import SectionWrapper from "./SectionWrapper";
 
 const roles = [
   {
-    company: "TechCore Solutions Inc.",
-    title: "System Administrator",
-    location: "Toronto, ON",
-    duration: "2022 – Present",
+    company: "Megasys Biotek / Akesiss Pharma",
+    title: "Senior IT Executive",
+    location: "Kochi, IN",
+    duration: "Nov 2018 – Dec 2023",
     bullets: [
       "Managed Active Directory environment supporting 500+ users across 3 office locations",
       "Reduced unplanned server downtime by 40% through proactive monitoring and patch management",
