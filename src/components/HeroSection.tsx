@@ -48,7 +48,9 @@ const HeroSection = () =>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <a
-          href="#resume"
+          href="https://drive.google.com/file/d/1e0rp6BTw6i7kUdehE3W0faKYsMHc6eeR/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity glow-box">
 
             <Download size={18} />
