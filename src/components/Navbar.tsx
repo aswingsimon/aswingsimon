@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="section-container flex items-center justify-between h-16">
         <a href="#" className="font-heading text-lg font-bold text-foreground tracking-tight">
-          <span className="text-primary">&lt;</span>SysAdmin<span className="text-primary">/&gt;</span>
+          AGS
         </a>
 
         {/* Desktop */}
