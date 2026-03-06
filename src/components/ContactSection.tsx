@@ -102,7 +102,7 @@ const ContactSection = () => {
 
         <div className="lg:col-span-2 space-y-4">
           {[
-            { icon: Mail, label: "Email", value: "john.anderson@email.com", href: "mailto:john.anderson@email.com" },
+            { icon: Mail, label: "Email", value: "aswingeosimon@email.com", href: "mailto:aswingeosimon@email.com" },
             { icon: MapPin, label: "Location", value: "Ontario, Canada", href: "#" },
             { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/johnaderson", href: "#" },
             { icon: Github, label: "GitHub", value: "github.com/johnaderson", href: "#" },
