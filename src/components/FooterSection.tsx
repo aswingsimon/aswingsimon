@@ -13,7 +13,7 @@ const FooterSection = () => (
     <div className="section-container">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
-          <p className="font-heading font-semibold text-foreground">John Anderson</p>
+          <p className="font-heading font-semibold text-foreground">Aswin Geo Simon</p>
           <p className="text-xs text-muted-foreground mt-1">© 2026 All Rights Reserved</p>
         </div>
 
@@ -27,9 +27,9 @@ const FooterSection = () => (
 
         <div className="flex items-center gap-3">
           {[
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
-            { icon: Github, href: "#", label: "GitHub" },
-            { icon: Mail, href: "mailto:john@example.com", label: "Email" },
+            { icon: Linkedin, href: "https://linkedin.com/in/aswingeosimon", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/aswingsimon", label: "GitHub" },
+            { icon: Mail, href: "mailto:aswingeosimon@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
