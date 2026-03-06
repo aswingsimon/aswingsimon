@@ -104,8 +104,8 @@ const ContactSection = () => {
           {[
             { icon: Mail, label: "Email", value: "aswingeosimon@email.com", href: "mailto:aswingeosimon@email.com" },
             { icon: MapPin, label: "Location", value: "Ontario, Canada", href: "#" },
-            { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/johnaderson", href: "#" },
-            { icon: Github, label: "GitHub", value: "github.com/johnaderson", href: "#" },
+            { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/aswingeosimon", href: "https://linkedin.com/in/aswingeosimon" },
+            { icon: Github, label: "GitHub", value: "github.com/aswingsimon", href: "https://github.com/aswingsimon" },
           ].map(({ icon: Icon, label, value, href }) => (
             <a
               key={label}
