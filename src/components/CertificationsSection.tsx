@@ -3,12 +3,9 @@ import { Award } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
 
 const certs = [
-  { name: "CompTIA A+", org: "CompTIA", status: "Certified" },
-  { name: "CompTIA Network+", org: "CompTIA", status: "Certified" },
+  { name: "Cisco Certified Network Associate (CCNA) Routing & Switching", org: "Cisco", status: "Certified" },
   { name: "AZ-900: Azure Fundamentals", org: "Microsoft", status: "Certified" },
-  { name: "MS-900: Microsoft 365 Fundamentals", org: "Microsoft", status: "Certified" },
-  { name: "ITIL 4 Foundation", org: "Axelos", status: "Certified" },
-  { name: "AZ-104: Azure Administrator", org: "Microsoft", status: "In Progress" },
+  { name: "CompTIA Network+", org: "CompTIA", status: "In Progress" },
 ];
 
 const CertificationsSection = () => (
