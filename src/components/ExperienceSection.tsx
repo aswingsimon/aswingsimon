@@ -31,9 +31,9 @@ const roles = [
     ],
   },
   {
-    company: "CloudBridge Technologies",
+    company: "Web Care Designers' Hub",
     title: "Junior IT Technician",
-    location: "Hamilton, ON",
+    location: "Thrissur, IN",
     duration: "2019 – 2020",
     bullets: [
       "Assisted with hardware/software troubleshooting and desktop support",
