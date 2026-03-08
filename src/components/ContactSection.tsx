@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, Mail, MapPin, Linkedin, Github, CheckCircle } from "lucide-react";
+import { Send, Mail, MapPin, Linkedin, Github, Phone, CheckCircle } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
 
 const ContactSection = () => {
