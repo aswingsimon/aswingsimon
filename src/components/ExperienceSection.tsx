@@ -18,9 +18,9 @@ const roles = [
     ],
   },
   {
-    company: "Nexus IT Services",
-    title: "IT Support Specialist",
-    location: "Ottawa, ON",
+    company: "SOD IT Services",
+    title: "L2 IT Support Specialist",
+    location: "Kochi, IN",
     duration: "2020 – 2022",
     bullets: [
       "Provided Tier 1/2 support for 200+ users in a hybrid work environment",
@@ -31,9 +31,9 @@ const roles = [
     ],
   },
   {
-    company: "CloudBridge Technologies",
+    company: "Web Care Designers' Hub",
     title: "Junior IT Technician",
-    location: "Hamilton, ON",
+    location: "Thrissur, IN",
     duration: "2019 – 2020",
     bullets: [
       "Assisted with hardware/software troubleshooting and desktop support",
