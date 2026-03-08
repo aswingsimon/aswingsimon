@@ -102,6 +102,7 @@ const ContactSection = () => {
 
         <div className="lg:col-span-2 space-y-4">
           {[
+            { icon: Phone, label: "Phone", value: "+1 (226) 977-4577", href: "tel:+12269774577" },
             { icon: Mail, label: "Email", value: "aswingeosimon@gmail.com", href: "mailto:aswingeosimon@gmail.com" },
             { icon: MapPin, label: "Location", value: "Ontario, Canada", href: "#" },
             { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/aswingeosimon", href: "https://linkedin.com/in/aswingeosimon" },
